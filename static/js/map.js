@@ -32,7 +32,7 @@ var ec_option={
 };
 $.ajax({
 	type:"get",
-	url:"js/area.json",
+	url:"static/js/area.json",
 	async:false,
 	success:function(data){
 		ec_option.series[0].data=data.data;
